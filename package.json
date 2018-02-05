@@ -1,0 +1,26 @@
+{
+  "name": "konecto-meetable",
+  "version": "1.0.0",
+  "description": "Meetable is a meeting organization and note-taking tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avilas2/konecto-meetable.git"
+  },
+  "author": "Sebastian Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avilas2/konecto-meetable/issues"
+  },
+  "homepage": "https://github.com/avilas2/konecto-meetable#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
