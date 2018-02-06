@@ -24,7 +24,7 @@ app.set('view engine', 'pug');
 app.use(express.static(__dirname+'/public'));
 
 //Meetings route
-app.get('/meetings', function(req, res){
+app.get('/meetings/view', function(req, res){
     let meetings = [
         {
             id: '0001',
