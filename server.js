@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 //Connect to MongoDB
-mongoose.connect("mongodb://ds123718.mlab.com:23718/heroku_xn610mnt",
+mongoose.connect("mongodb://something",
     {auth: {
         user: "savila",
         password: "konecto"
